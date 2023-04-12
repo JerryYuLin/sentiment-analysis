@@ -41,5 +41,4 @@ with open('sentiment-analysis.csv', 'w', encoding='utf-8', newline='') as csvfil
                 if i != '--' and i != '':
                     writer.writerow([i, ''])
 
-
 driver.close()
